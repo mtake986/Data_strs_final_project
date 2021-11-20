@@ -41,11 +41,11 @@ print(f'Here is the empty stack. => {stack}')
 ### []
 ```
 
-The most imaginable situation of a stack is an undo shortcut or deleting words on a text editor like Google docs. Let's say you type *I love Python* on a text editor. When you change Python to Java, the first word that is deleted first is *n*, and *o*, *h*, and so on until *p*. Then, you can type *Java* to replace python.
+Stack is a simple and easy data structure to implement, but it doesn't mean stack is not used anywhere. 
 
-Stack is a simple and easy data structure to implement, but it doesn't mean stack is not used anywhere. It's so powerful and the most common uses of a stack are:
+The most imaginable situation of a stack is an undo shortcut or deleting words on a text editor like Google docs. Let's say you type *I love Python* on a text editor. When you change Python to Java, the first word that is deleted first is *n*, and *o*, *h*, and so on until *p*. Then, you can type *Java* to replace python.
+Other examples are: 
 * All websites' urls you visited are stored in a stack. When you press the back button in browsers, the current url which is at the end of the stack is removed from the stack, and you'd see the website which was at the second of the stack. 
-* When you type *Hello Python* on a text editor, it's stored in a stack. When you want to change Python to Java, the deletion order is n => o => h => t => y => P. Then, you can type *Java*.
 * Place two parallel mirrors facing each other. Any object in between them would be reflected recursively.
 
 In Python, a stack is used when you implement recursion. Recursion is the process of defining something in terms of itself. Below is the example code of recursion. 
@@ -69,6 +69,19 @@ In the example, when the function named *factorial* was called, what's going on 
 
 Remember that a stack's key concept is LIFO. 
 I don't explain this a lot here, but there is something similar called a queue whose key concept is First In, First Out, FIFO. 
+Here is an example problem for you. 
+Solve it by using a stack. 
+Create a list and add **Good morning** to it. Then, change **morning** to **evening** instead of **morning**.
+Note that 
+* you need to add one letter or a space at a time. 
+* when you pop some words, you an use for loop. 
+* in order to connect all words in a list, use
+``` python
+print(''.join(your_list_name))
+```
 
+[See a solution](solution/solve_stack.md)
 
 [back to welcome page](welcome.md)
+
+[Go to linked list page](linked_list.md)
