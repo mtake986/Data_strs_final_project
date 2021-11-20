@@ -67,9 +67,9 @@ print(f"The factorial of {num} is the {factorial(num)} = 4 * 3 * 2 * 1")
 ```
 In the example, when the function named *factorial* was called, what's going on inside of it is to check if *x* is 1 or not. Because *x* is 4, the function return *4 * factorial(4-1)* and 4 was in a stack in pc memory. Then, factorial function would be called again and it returned *3 * factrial(3-1)* and 3 was into the stack. When x is 1, it just returned 1, no function here, so there are *4 * 3 * 2 * 1* in the stack now. You can see all values were added at the end of the stack. Also, because of LIFO, the order of deleting is 1 => 2 => 3 => 4. 
 
-Remember that a stack's key concept is LIFO. 
-I don't explain this a lot here, but there is something similar called a queue whose key concept is First In, First Out, FIFO. 
-Here is an example problem for you. 
+Remember that a stack's key concept is LIFO. I don't explain this a lot here, but there is something similar called a queue whose key concept is First In, First Out, FIFO.
+
+## Here is an example problem for you. 
 Solve it by using a stack. 
 Create a list and add **Good morning** to it. Then, change **morning** to **evening** instead of **morning**.
 Note that 
