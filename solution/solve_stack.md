@@ -29,4 +29,4 @@ print(''.join(lis))
 ### Output Good evening
 ```
 
-[back to welcome page](welcome.md)
+[Go back to a Stack page](../stack.md)
