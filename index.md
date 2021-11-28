@@ -31,7 +31,7 @@ before and after the code.  If you put the name of the programming
 language after the fourth back-ticks, then it will highlight the 
 syntax for you:
 
-```python
+``` python
 x = 3
 y = 7
 z = x * y

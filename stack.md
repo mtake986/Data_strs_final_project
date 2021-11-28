@@ -6,7 +6,7 @@ In stack, an element is added at the end of the list and only the last element a
 
 ![Visualize a stack](picture_files/stack_1.png)
 
-### The functions for stacks
+## **`OPERATIONS FOR STACKS`**
 Name | Description | BigO()
 -----| ------------|--------
 empty()| returns False if the stack is empty, True for not empty|O(1)
@@ -41,7 +41,7 @@ print(f'Here is the empty stack. => {stack}')
 ### []
 ```
 
-Stack is a simple and easy data structure to implement, but it doesn't mean stack is not used anywhere. 
+*Stack is a simple and easy data structure to implement, but it doesn't mean stack is not used anywhere.*
 
 The most imaginable situation of a stack is an undo shortcut or deleting words on a text editor like Google docs. Let's say you type *I love Python* on a text editor. When you change Python to Java, the first word that is deleted first is *n*, and *o*, *h*, and so on until *p*. Then, you can type *Java* to replace python.
 Other examples are: 
@@ -69,7 +69,7 @@ In the example, when the function named *factorial* was called, what's going on 
 
 Remember that a stack's key concept is LIFO. I don't explain this a lot here, but there is something similar called a queue whose key concept is First In, First Out, FIFO.
 
-## Here is an example problem for you. 
+## **`HERE IS AN EXAMPLE PROBLEM FOR YOU `**
 Solve it by using a stack. 
 Create a list and add **Good morning** to it. Then, change **morning** to **evening** instead of **morning**.
 Note that 
