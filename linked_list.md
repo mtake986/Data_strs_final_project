@@ -13,36 +13,36 @@ Features of a linked list :
 
 <!-- ## `Ok, but, Why does each node have a value and an address to the next node?` -->
 ## `OK, BUT, WHY DOES EACH NODE HAVE A VALUE AND AN ADDRESS TO THE NEXT NODE?`
-That's because data in an array can be stored randomly in memory. For, example, when you define an array [1, 2, 3, 4, 5], possibly the order of data in the array is not always the same in memory. Thus, linked lists organize data randomly too. However, each node in a linked list has two stuff, a value and **an pointer to the next node**, we can keep our list together and give us quick access to each element when we need it. 
+That's because data in an array can be stored randomly in memory. For, example, when you define an array [1, 2, 3, 4, 5], possibly the order of data in the array is not always the same in memory. Thus, linked lists organize data randomly too. However, each node in a linked list has two stuff, a value and **a pointer to the next node**, we can keep our list together and give us quick access to each element when we need it. 
 
-Most of linked lists have two address in a pointer: an address to previous and next nodes. A doubly linked list is named so because of the number of address a pointer of each node includes. In other words, it's a **bi-directional** list!!!!
+Most linked lists have two addresses in a pointer: an address to previous and next nodes. A doubly linked list is named so because of the number of addresses a pointer of each node includes. In other words, it's a **bi-directional** list!!!!
 ![Visualize a doubly linked list](picture_files/LL_doubly.jpg)
 
 
 
 
 ## **`INSERTING`**
-One of the biggest advantage of a linked list is the speed, in another word, Big O notation. Because of pointers, You only have to do some stuff on neighboring values in the linked list during inserting. Unlike a dynamic array, we don't have to move all of the values when you insert a value into a linked list. 
+One of the biggest advantages of a linked list is the speed, in another word, Big O notation. Because of pointers, You only have to do some stuff on neighboring values in the linked list during inserting. Unlike a dynamic array, we don't have to move all of the values when you insert a value into a linked list. 
 
 Representation for inserting a value into a linked list. 
 * NEW_NODE = a new node inserted into the linked list
 * HEAD = the first value in the linked list
-* TAIL = the end value in teh linked list
+* TAIL = the end value in the linked list
 * CURRENT = a value before NEW_NODE
 
 
 ### **Inserting at the head**
 Steps to insert a value in the head:
 1. create NEW_NODE
-2. set the address for the next value of NEW_NODE to current HEAD
+2. set the address for the next value of NEW_NODE to the current HEAD
 3. set the address for the previous value of HEAD to NEW_NODE
 4. set HEAD of the linked list to NEW_NODE
 
 ### **Inserting at the tail**
-It looks very similar to inserting at the head, so I recommend comparing the both steps for inserting at the head and tail.
+It looks very similar to inserting at the head, so I recommend comparing both steps for inserting at the head and tail.
 1. create NEW_NODE
-2. set the address for the previous value of NEW_NODE to current TAIL
-3. set the address for the next value of current TAIL to NEW_NODE
+2. set the address for the previous value of NEW_NODE to the current TAIL
+3. set the address for the next value of the current TAIL to NEW_NODE
 4. set TAIL of the linked list to NEW_NODE
 
 ### **Inserting in the middle**
@@ -56,7 +56,7 @@ It's a bit more complicated. Below are the steps:
 ### **Special Case**
 If there was no node in the linked list, all we need to do is to set HEAD and TAIL to NEW_NODE.
 ## **`REMOVING`**
-You should be so confused now and not even want to learn about removing a value from a linked lis, but don't leave!! I promise that removing a value from a linked list is much more simple and easier to understand than inserting. So, let's get started. 
+You should be so confused now and not even want to learn about removing a value from a linked list, but don't leave!! I promise that removing a value from a linked list is much more simple and easier to understand than inserting. So, let's get started. 
 * AFTER_NODE is a node after the deleted node.
 * BEFORE_NODE is a node before the deleted node.
 ### **Removing the first value**
@@ -66,7 +66,7 @@ What you have to do is just two things: 1. remove the first value from the linke
 
 ### **Removing the last value**
 Likely to the process of inserting, it's very similar to removing the first value. 
-1. set the address for the next value of the second to last node in the linked list to nothing (because the last node is deleted and no address for the next value of the second to last node.)
+1. set the address for the next value of the second to the last node in the linked list to nothing (because the last node is deleted and no address for the next value of the second to the last node.)
 2. set the TAIL to be the second to last node.
 
 ### **Removing a value from the middle**
@@ -91,8 +91,8 @@ remove(index) | removes index node | O(n) - similar to inserting in the middle, 
 empty()| returns False if the stack is empty, True for not empty | O(1)- just needs to compare to 0
 size()| returns the length of the linked list | O(1) 
 
-## **`When linked lists are used??`**
-As you learn about a linked list, you may have asked when linked lists are necessary?? Yeah, I asked the same question to my teacher when I learned linked list first because a linked list is almost all same as an array. But, linked list has the faster performance than a dynamic array does. Let's compare both Big O of the operations.
+## **` When linked lists are used??`**
+As you learn about a linked list, you may have asked when linked lists are necessary?? Yeah, I asked the same question to my teacher when I learned linked lists first because a linked list is almost the same as an array. But, a linked list has faster performance than a dynamic array does. Let's compare both Big O of the operations.
 Operation | Dynamic Array | Linked List
 -----| ------------|--------
 <!-- insert -->
@@ -104,10 +104,10 @@ remove front | O(n) | O(1)
 remove tail | O(1) | O(1)
 remove middle | O(n) | O(n)
 
-Operations of inserting or removing a value at the head or in the middle of both linked list and array are O(1) and O(n), but the difference is when inserting and removing at the front. The reason why it takes n is because all of the values in a dynamic array have to be pushed one index back because of the value added at the head. 
+Operations of inserting or removing a value at the head or in the middle of both linked list and array are O(1) and O(n), but the difference is when inserting and removing at the front. The reason why it takes n is that all of the values in a dynamic array have to be pushed one index back because of the value added at the head. 
 
-## **`It's time to code!!`**
-Check the python code below and understand what's going on there. Then, solve the problems I provided. It's better if you fully understand how to use a class and functions in python. You may feel there are so many code below at a glance, but there are so many comments to explain what's happening in class and functions, so don't get scared plz. Scroll all the way down and go to a solution page to see the answers.
+## **` It's time to code!!`**
+Check the python code below and understand what's going on there. Then, solve the problems I provided. It's better if you fully understand how to use a class and functions in python. You may feel there are so many codes below at a glance, but there are so many comments to explain what's happening in class and functions, so don't get scared plz. Scroll down and go to a solution page to see the answers.
 
 ``` python
 class Linkedlist:
@@ -189,7 +189,7 @@ class Linkedlist:
       current = current.next
 
 
-  def remove_middle(self):
+  def remove_middle(self, value):
     ################
     # Problem 4: write code to implement a function to delete from the middle. When the value == head or the value == tail, use the functions you've created already above, so you don't have to code a lot
     ################
@@ -202,5 +202,7 @@ class Linkedlist:
 [See a solution](solution/solve_linkedlist.md)
 
 [Go to the next page for tree](./tree.md)
+
+[back to previous page for stack](./linked_list.md)
 
 [back to welcome page](./welcome.md)
