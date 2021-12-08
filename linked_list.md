@@ -200,6 +200,6 @@ class Linkedlist:
 
 [Go to the next page for tree](./trees.md)
 
-[back to previous page for stack](./linked_list.md)
+[back to the previous page for stack](./linked_list.md)
 
-[back to welcome page](./welcome.md)
+[back to the welcome page](./welcome.md)
