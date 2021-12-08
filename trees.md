@@ -169,7 +169,7 @@ I will leave steps below you should follow. Looking them back can help you as yo
 4. Write two insert functions in the tree class. 
 5. One is called when inserting first and to check if the tree has root, and the other is for finding a proper place for the value that is added. 
 
-[See a solution](solution/solve_tree.md)
+[See a solution](solution/solve_trees.md)
 
 [back to previous page](./linked_list.md)
 
