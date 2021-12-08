@@ -73,4 +73,4 @@ class Linkedlist:
 ```
 
 
-[Go back to a Stack page](../linked_list.md)
+[Go back to a linked list page](../linked_list.md)
