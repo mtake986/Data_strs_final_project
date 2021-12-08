@@ -198,7 +198,7 @@ class Linkedlist:
 
 [See a solution](solution/solve_linkedlist.md)
 
-[Go to the next page for tree](./tree.md)
+[Go to the next page for tree](./trees.md)
 
 [back to previous page for stack](./linked_list.md)
 
