@@ -171,7 +171,7 @@ I will leave steps below you should follow. Looking them back can help you as yo
 
 [See a solution](solution/solve_trees.md)
 
-[back to the previous page](./linked_list.md)
+[back to the previous page for linked list](./linked_list.md)
 
 [back to the welcome page](./welcome.md)
 
