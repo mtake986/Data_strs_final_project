@@ -71,11 +71,10 @@ Remember that a stack's key concept is LIFO. I don't explain this a lot here, bu
 
 ## **`HERE IS AN EXAMPLE PROBLEM FOR YOU `**
 Solve it by using a stack. 
-Create a list and add **Good morning** to it. Then, change **morning** to **evening** instead of **morning**.
+Create a list and add one character in a string **Good morning** at a time by using append() into the list you have created. Then, change **morning** to **evening** instead of **morning**.
 Note that 
-* you need to add one letter or a space at a time. 
 * when you pop some words, you can use for loop. 
-* to connect all words in a list, use
+* the code below is to connect all words in a list, use
 ``` python
 print(''.join(your_list_name))
 ```

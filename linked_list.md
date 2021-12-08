@@ -80,33 +80,30 @@ If there was only one node in the linked list, all we need to do is to set HEAD 
 ## **`OPERATIONS FOR LINKED LISTS`**
 Name | Description | BigO()
 -----| ------------|--------
-<!-- insert -->
-insert_head(a) | adds a at the head | O(1)
-insert_tail(a) | adds a at the end | O(1)
-insert_middle(index, a) | adds a after i-th node | O(n) - unlikely inserting at the head or end, the Big O is n because you have to loop through the linked list until you find i-th node. 
-<!-- remove -->
+insert_head(a)| adds a at the head| O(1)
+insert_tail(a)| adds a at the end| O(1)
+insert_mid(index, a) | adds a after i-th node | O(n) - unlikely inserting at the head or end, the Big O is n because you have to loop through the linked list until you find i-th node. 
 remove_head(a) | removes the node at the head | O(1)
 remove_tail(index) | removes the node at the end | O(1) - index must be one smaller than the length of the linked list
 remove(index) | removes index node | O(n) - similar to inserting in the middle, it requires a loop to find the inde node.
 empty()| returns False if the stack is empty, True for not empty | O(1)- just needs to compare to 0
 size()| returns the length of the linked list | O(1) 
 
-## **` When linked lists are used??`**
+
+## **` WHEN LINKED LISTS ARE USED??`**
 As you learn about a linked list, you may have asked when linked lists are necessary?? Yeah, I asked the same question to my teacher when I learned linked lists first because a linked list is almost the same as an array. But, a linked list has faster performance than a dynamic array does. Let's compare both Big O of the operations.
 Operation | Dynamic Array | Linked List
------| ------------|--------
-<!-- insert -->
-insert front | O(n) | O(1)
+----------| --------------|------------
+insert front | **O(n)** | O(1)
 insert end | O(1) | O(1)
 insert middle | O(n) |  O(n)
-<!-- remove -->
-remove front | O(n) | O(1)
+remove front | **O(n)** | O(1)
 remove tail | O(1) | O(1)
 remove middle | O(n) | O(n)
 
 Operations of inserting or removing a value at the head or in the middle of both linked list and array are O(1) and O(n), but the difference is when inserting and removing at the front. The reason why it takes n is that all of the values in a dynamic array have to be pushed one index back because of the value added at the head. 
 
-## **` It's time to code!!`**
+## **` IT'S TIME TO CODE!!`**
 Check the python code below and understand what's going on there. Then, solve the problems I provided. It's better if you fully understand how to use a class and functions in python. You may feel there are so many codes below at a glance, but there are so many comments to explain what's happening in class and functions, so don't get scared plz. Scroll down and go to a solution page to see the answers.
 
 ``` python
