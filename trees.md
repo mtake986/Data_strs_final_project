@@ -160,7 +160,7 @@ insert()| inserts a value you passed |O(log(n))
 delete()| removes a value you want and rotate nodes if necessary |O(log(n))
 
 ## **`TIME TO CODE!!`**
-In this section, I want you to actually create a tree on your own, insert values, then show all of the values in the tree. Only thing I would like to note is that please do not copy code above. Your code would be almost all the same as the code you looked up above, but try creating a tree by using your brain. 
+In this section, I want you to actually create a tree on your own, insert values, then show all of the values in the tree. Edit [this python file](problem_files/trees.py) and solve this problem by using a tree. Only thing I would like to note is that please do not copy code above. Your code would be almost all the same as the code you looked up above, but try creating a tree by using your brain. 
 
 I will leave steps below you should follow. Looking them back can help you as you code. 
 1. Create a class for a tree. 
