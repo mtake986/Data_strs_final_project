@@ -36,8 +36,3 @@ print(''.join(lis))
 
 # Start coding from here
 
-
-
-
-
-

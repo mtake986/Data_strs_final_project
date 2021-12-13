@@ -70,7 +70,7 @@ In the example, when the function named *factorial* was called, what's going on 
 Remember that a stack's key concept is LIFO. I don't explain this a lot here, but there is something similar called a queue whose key concept is First In, First Out, FIFO.
 
 ## **`HERE IS AN EXAMPLE PROBLEM FOR YOU `**
-Solve it by using a stack. 
+Edit [this python file](problem_files/stack.py) and solve this problem by using a stack. 
 Create a list and add one character in a string **Good morning** at a time by using append() into the list you have created. Then, change **morning** to **evening** instead of **morning**.
 Note that 
 * when you pop some words, you can use for loop. 
@@ -80,8 +80,6 @@ print(''.join(your_list_name))
 ```
 
 [See a solution](solution/solve_stack.md)
-
-[Download a python file](problem_files/stack.py)
 
 [Go to the next page to learn linked list](./linked_list.md)
 

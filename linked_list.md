@@ -104,7 +104,7 @@ remove middle | O(n) | O(n)
 Operations of inserting or removing a value at the head or in the middle of both linked list and array are O(1) and O(n), but the difference is when inserting and removing at the front. The reason why it takes n is that all of the values in a dynamic array have to be pushed one index back because of the value added at the head. 
 
 ## **` IT'S TIME TO CODE!!`**
-Check the python code below and understand what's going on there. Then, solve the problems I provided. It's better if you fully understand how to use a class and functions in python. You may feel there are so many codes below at a glance, but there are so many comments to explain what's happening in class and functions, so don't get scared plz. Scroll down and go to a solution page to see the answers.
+Check the python code below and understand what's going on there. Then, edit [this python file](problem_files/ll.py) and solve this problem by using linked list. It's better if you fully understand how to use a class and functions in python. You may feel there are so many codes below at a glance, but there are so many comments to explain what's happening in class and functions, so don't get scared plz. Scroll down and go to a solution page to see the answers.
 
 ``` python
 class Linkedlist:
@@ -192,8 +192,6 @@ class Linkedlist:
     ################
 
 ```
-
-
 
 
 [See a solution](solution/solve_linkedlist.md)
