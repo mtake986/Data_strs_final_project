@@ -81,6 +81,8 @@ print(''.join(your_list_name))
 
 [See a solution](solution/solve_stack.md)
 
+[Download a python file](problem_files/stack.py)
+
 [Go to the next page to learn linked list](./linked_list.md)
 
 [back to welcome page](./welcome.md)
