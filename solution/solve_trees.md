@@ -26,3 +26,5 @@ class BST:
             else:
                 self._inserting(data, node.right)
 ```
+
+[Go back to the page](../trees.md)
